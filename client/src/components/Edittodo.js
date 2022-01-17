@@ -7,7 +7,7 @@ const Edittodo= ({id,desc })=>{
 
     const  updateDesc= async e=>{
             try {
-                e.preventDefault();
+               
                 await axios.put(`http://localhost:4000/todos/${id}`,{description})
                 
             } catch (error) {
@@ -42,7 +42,7 @@ const Edittodo= ({id,desc })=>{
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" onClick={e=> updateDesc(e)} class="btn btn-primary">Save changes</button>
+        <button type="button" onClick={e=> updateDesc(e)} class="btn btn-primary"  data-bs-dismiss="modal">Save changes</button>
       </div>
     </div>
   </div>
