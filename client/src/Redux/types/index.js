@@ -1,0 +1,28 @@
+export const ADD = {
+    REQUEST: "ADD_REQUEST",
+    SUCCESS: "ADD_SUCCESS",
+    FAIL: "ADD_FAIL",
+}
+
+export const UPDATE = {
+    REQUEST: "UPDATE_REQUEST",
+    SUCCESS: "UPDATE_SUCCESS",
+    FAIL: "UPDATE_FAIL",
+}
+export const GET = {
+    REQUEST: "GET_REQUEST",
+    SUCCESS: "GET_SUCCESS",
+    FAIL: "GET_FAIL",
+}
+
+export const TODO_GET = {
+    REQUEST: "TODO_GET_REQUEST",
+    SUCCESS: "TODO_GET_SUCCESS",
+    FAIL: "TODO_GET_FAIL",
+}
+
+export const DELETE = {
+    REQUEST: "DELETE_REQUEST",
+    SUCCESS: "DELETE_SUCCESS",
+    FAIL: "DELETE_FAIL",
+}

@@ -1,7 +1,13 @@
 import React,{useState} from "react";
+import { useDispatch, useSelector } from 'react-redux'
 const axios= require('axios')
 
 const Inputtodo=()=>{
+
+    const dispatch =useDispatch()
+    const {todos} = useSelector(state => state.todo)
+    console.log(todos)
+
 
     const [description, setdescription] = useState("")
 
